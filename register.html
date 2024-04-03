@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="register.html">Register</a>
+      </li>
+      <li>
+        <a href="login.html">Login</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="card">
+    <h1>Sign Up</h1>
+
+    <form action="#">
+      <div style="display: flex; justify-content: space-between;">
+        <div class="mb-1">
+          <label for="firstname">First name</label><br>
+          <input type="text" name="firstname" id="firstname">
+        </div>
+        <div class="mb-1">
+          <label for="lastname">Last name</label><br>
+          <input type="text" name="lastname" id="lastname">
+        </div>
+      </div>
+
+      <div class="mb-1">
+        <label for="email">Email address</label><br>
+        <input type="email" name="email" id="email">
+      </div>
+      
+      <div class="mb-1">
+        <label for="major">Major</label><br>
+        <select name="majot" id="major">
+          <option value="infor">Informatika</option>
+          <option value="sisin">Sistem Informasi</option>
+          <option value="rpl">Rekayasa Perangkat Lunak</option>
+        </select>
+      </div>
+      
+      <div class="mb-1">
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password">
+      </div>
+
+      <button type="submit">Sign In</button>
+      
+      <span>Already have an account? <a href="login.html">Sign in</a></span>
+    </form>
+  </div>
+</body>
+</html>
